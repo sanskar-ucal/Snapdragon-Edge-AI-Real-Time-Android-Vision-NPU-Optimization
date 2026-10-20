@@ -1,0 +1,43 @@
+{
+  "dataset": "coco128",
+  "images": 128,
+  "environment": {
+    "machine": "arm64",
+    "processor": "arm",
+    "system": "Darwin 25.6.0",
+    "python": "3.12.4",
+    "onnxruntime": "1.31.0"
+  },
+  "results": [
+    {
+      "variant": "yolo11n_320_fp32",
+      "map50": 0.5061,
+      "map50_95": 0.3713
+    },
+    {
+      "variant": "yolo11n_320_fp16",
+      "map50": 0.5033,
+      "map50_95": 0.3715
+    },
+    {
+      "variant": "yolo11n_320_int8",
+      "map50": 0.5096,
+      "map50_95": 0.3708
+    },
+    {
+      "variant": "yolo11n_640_fp32",
+      "map50": 0.6709,
+      "map50_95": 0.5031
+    },
+    {
+      "variant": "yolo11n_640_fp16",
+      "map50": 0.6717,
+      "map50_95": 0.5028
+    },
+    {
+      "variant": "yolo11n_640_int8",
+      "map50": 0.6267,
+      "map50_95": 0.4713
+    }
+  ]
+}
