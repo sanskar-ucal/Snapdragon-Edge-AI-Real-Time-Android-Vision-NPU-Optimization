@@ -1,0 +1,21 @@
+.DS_Store
+
+# Python
+ml/.venv/
+__pycache__/
+.pytest_cache/
+ml/data/
+ml/artifacts/
+ml/*.onnx
+ml/*.pt
+ml/runs/
+
+# Android / Gradle
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/**/build/
+android/**/.cxx/
+android/.idea/
+*.iml
+captures/
